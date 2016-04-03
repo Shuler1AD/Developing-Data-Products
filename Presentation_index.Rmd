@@ -1,0 +1,72 @@
+---
+title       : Course Project
+subtitle    : Shiny Application and Reproducible Pitch
+author      : Anthony Shuler
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction
+
+This application is developed using R Programming  
+language in R Studio's IDE. The application 
+used shiny environment under R studio for interface 
+desigening. 
+This is a fairly good app can be used to provide iris
+data dataset through datasets packages gives the 
+measurements in centimeters of the variables sepal 
+length and width and petal length and width, 
+respectively, for 50 flowers from each of 3 species of 
+iris. The species are Iris setosa, versicolor, and virginica.
+The structure figure below illustration the variable for this 
+application data:
+
+```{r, echo=FALSE}
+str(iris)
+
+```
+
+--- .
+## Variables and Inputs
+Using datasets package with the Iris to create this application illustration
+
+Below are the lists of variables Iris provided:
+
+- Sepal.Width
+- Sepal.Length
+- Petal.Width
+- Petal.Length
+
+Below is the type of input uses in application
+
+- radio button 
+- drop down
+- tab panel
+- reactive
+
+--- .class #id 
+
+## Interactive Charts
+
+Where the input play the big role through the link provide below:
+
+https://shuler1ad.shinyapps.io/reactive/
+
+--- .
+
+## Conclusion 
+Where are able to show you the summary outcome of the application. 
+```{r, echo=FALSE}
+summary(iris)
+```
+
+
+
+
+
+
